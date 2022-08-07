@@ -25,7 +25,7 @@ def get_requirement_list()->List[str]:
 
 setup(
     name="housing predictor",
-    version = "0.0.1",
+    version = "0.0.3",
     author = "Govind",
     description = "MAchine Learning Project",
     packages = ["housing"],
