@@ -29,7 +29,7 @@ setup(
     author = "Govind",
     description = "MAchine Learning Project",
     packages = ["housing"],
-    install_requires = get_requirement_list()
+    install_requires = get_requirement_list().remove('-e .')
 
 
 )
