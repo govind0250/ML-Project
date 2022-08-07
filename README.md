@@ -16,7 +16,7 @@ docker images
 '''
 Run docker image
 '''
-docker run -p 5000:5000 -e PORT=5000 faf280723c8a
+docker run -p 5000:5000 -e PORT=5000 f3f17a757324
 '''
 
 To check running container in docker
@@ -27,4 +27,9 @@ docker ps
 To stop docker container
 '''
 docker stop container_id
+'''
+
+
+'''
+python setup.py install
 '''
